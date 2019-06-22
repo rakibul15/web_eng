@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prescription</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6">
+                Doctors name:
+                <br>
+                Degrees:
+                <br>
+                Additional Info:
+            </div>
+            <div class="col-sm-6">
+                <p id="demo"></p>
+                Prescription Id:
+            </div>
+        </div>
+
+
+        <div id="p_info">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form>
+                        <div class="row1">
+                            <div class="col-25">
+                                <label for="patient_id">Patient Id:</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="patient_id" name="patient_id">
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="col-25">
+                                <label for="lname">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="pname" name="pname">
+                            </div>
+                        </div>
+                        <div class="row1">
+                            <div class="col-25">
+                                <label for="lname">Age</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="age" name="age">
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="col-sm-6">
+                    <input type="submit" value="Search"><br>
+                    <button class="button">View History</button>
+                </div>
+            </div>
+            </form>
+        </div>
+        <form action="">
+        <div class="prescribe">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="symtoms">
+                        <h6>Symtoms</h6>
+                        
+                            <input type="text" id="sym1" name="sym1" placeholder="Write here">
+                            <input type="text" id="sym2" name="sym1" placeholder="Write here">
+                            <input type="text" id="sym3" name="sym1" placeholder="Write here">
+                            <input type="text" id="sym4" name="sym1" placeholder="Write here">
+                            <button class="button button1">Add new field</button>
+                      
+                    </div>
+                    <div class="symtoms">
+                        <h6>Tests</h6>
+                       
+                            <input type="text" id="test1" name="sym1" placeholder="Write here">
+                            <input type="text" id="test2" name="sym1" placeholder="Write here">
+                            <input type="text" id="test3" name="sym1" placeholder="Write here">
+                            <input type="text" id="test3" name="sym1" placeholder="Write here">
+                            <button class="button button1">Add new field</button>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-6 " id="m_deatils">
+                    
+                        <div class="madicine_prefared">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <input type="text" id="madicine1" name="madicine1"
+                                        placeholder="Write medicine name here">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="day" placeholder="Days">
+                                </div>
+                            </div>
+                            <div class="row space">
+
+                                <div class="col-sm-3">
+                                    <input type="text" id="morning" name="morning" placeholder="morning">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="afternon" name="afternoon" placeholder="afternoon">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="evening" name="evening" placeholder="evening">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="night" placeholder="night">
+                                </div>
+                            </div>
+                            <div class="row space">
+                                <div class="col-sm-12">
+                                    <textarea id="subject" name="subject" placeholder="Write Comment.."
+                                        style="height:70px"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="madicine_prefared">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <input type="text" id="madicine1" name="madicine1"
+                                        placeholder="Write medicine name here">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="day" placeholder="Days">
+                                </div>
+                            </div>
+                            <div class="row space">
+
+                                <div class="col-sm-3">
+                                    <input type="text" id="morning" name="morning" placeholder="morning">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="afternon" name="afternoon" placeholder="afternoon">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="evening" name="evening" placeholder="evening">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="night" placeholder="night">
+                                </div>
+                            </div>
+                            <div class="row space">
+                                <div class="col-sm-12">
+                                    <textarea id="subject" name="subject" placeholder="Write Comment.."
+                                        style="height:70px"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="madicine_prefared">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <input type="text" id="madicine1" name="madicine1"
+                                        placeholder="Write medicine name here">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="day" placeholder="Days">
+                                </div>
+                            </div>
+                            <div class="row space">
+
+                                <div class="col-sm-3">
+                                    <input type="text" id="morning" name="morning" placeholder="morning">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="afternon" name="afternoon" placeholder="afternoon">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="evening" name="evening" placeholder="evening">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" id="day" name="night" placeholder="night">
+                                </div>
+                            </div>
+                            <div class="row space">
+                                <div class="col-sm-12">
+                                    <textarea id="subject" name="subject" placeholder="Write Comment.."
+                                        style="height:70px"></textarea>
+                                </div>
+                            </div>
+                            <button class="button button1">Add new field</button>
+
+                        </div>
+                </div>
+
+            </div>
+
+
+           
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12 m-4">
+                   
+                            <p>Visit me after<select name="cars">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="4">none</option>
+                                  </select> Days</p>
+                       
+            </div>
+        </div>
+        
+                  <div class="save text-center">
+                        <input type="submit" value="Submit">
+                    <input type="submit" value="Discard">
+                  </div>
+         
+        </div>
+
+        </form>
+    </div>
+    </div>
+    </div>
+
+
+
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
